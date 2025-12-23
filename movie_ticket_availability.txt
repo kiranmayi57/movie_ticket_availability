@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int tickets;
+
+    printf("Enter available tickets: ");
+    scanf("%d", &tickets);
+
+    if(tickets > 0)
+        printf("Tickets Available\n");
+    else
+        printf("House Full\n");
+
+    return 0;
+}
